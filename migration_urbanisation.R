@@ -1,7 +1,4 @@
-library(bonn)
-library(sf)
-library(dplyr)
-library(ggplot2)
+pacman::p_load(bonn, sf, dplyr, ggplot2, here)
 
 deciles <- function(x) {
   
